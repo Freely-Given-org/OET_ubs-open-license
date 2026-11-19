@@ -10,7 +10,7 @@ The image collections are not included (they're unchanged, so download them from
 
 ## Changes made
 
-These changes were made automatically by `adaptUBSResources.py` (version 0.12)
+These changes were made automatically by `adaptUBSResources.py` (version 0.13)
 to match the [Open English Translation](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET) Readers’ Version (OET-RV):
 
 - Traditional forms of names were changed to the OET-RV forms from `OET-RV_names_table.tsv`
@@ -24,6 +24,7 @@ to match the [Open English Translation](https://github.com/Freely-Given-org/Open
 - `ubs-bible-routes/RouteTitles_OET-RV.tsv` was added, giving the OET-RV form of each route title
   (the route files themselves are unchanged).
 
-Codes, references, Hebrew and Greek words, semantic domain labels, textual notes (which quote other translations),
+Text quoted from other Bible versions (e.g., ‘“helmets” (RSV)’) was not changed, nor were
+codes, references, Hebrew and Greek words, semantic domain labels, textual notes (which quote other translations),
 the parallel passages database, and the MARBLE index were not changed.
 See `adaptation_log.tsv` for the number of times each change was made.
