@@ -13,7 +13,7 @@ NAME	Solomon → Shelomoh	208
 NAME	Jacob → Ya’akov	194
 NAME	Abraham → Avraham	192
 NAME	Israelites → Israelis	177
-NAME	John → Yohan	171
+NAME	John → Yohan	165
 NAME	Manasseh → Menasheh	142
 NAME	Jordan → Yarden	136
 NAME	Ephraim → Efrayim	135
@@ -25,7 +25,7 @@ NAME	Sinai → Sinay	115
 NAME	Egyptian → Mitsri	112
 NAME	Herod → Herodes	112
 NAME	Saul → Sha’ul	112
-NAME	Jeremiah → Yirmiyah	103
+NAME	Jeremiah → Yirmiyah	102
 NAME	Samaria → Shomron	100
 NAME	Israelite → Israeli	96
 NAME	Syria → Aram	96
@@ -36,17 +36,17 @@ NAME	Simon → Shim’on	91
 NAME	Reuben → Re’uven	87
 NAME	Judas → Yehudah	83
 NAME	Lebanon → Levanon	82
-NAME	Job → Iyov	81
 NAME	Babylon → Bavel	79
 NAME	India → Hodu	79
 NAME	Joshua → Yehoshua	79
-NAME	Samuel → Shmuel	79
 NAME	Hezekiah → Hizkiyah	78
-NAME	Peter → Kefa	77
+NAME	Job → Iyov	78
 NAME	Nehemiah → Nehemyah	75
 NAME	Assyria → Ashur	74
+NAME	Samuel → Shmuel	72
 NAME	Issachar → Yisakar	71
 NAME	Naphtali → Naftali	71
+NAME	Peter → Kefa	71
 NAME	Azariah → Azaryah	67
 NAME	Philistines → Pelishtim	67
 NAME	Jew → Yehudi	65
@@ -61,8 +61,8 @@ NAME	Pharaoh → Par’oh	60
 NAME	Pharisees → Farisaios	60
 NAME	Zerubbabel → Zerubavel	58
 NAME	Corinth → Korinthos	56
-NAME	Isaiah → Yeshayah	56
 NAME	Josiah → Yoshiyah	55
+NAME	Isaiah → Yeshayah	54
 NAME	James → Ya’akov	54
 NAME	Jehoshaphat → Yehoshafat	54
 NAME	Seir → Se’ir	54
@@ -74,7 +74,6 @@ NAME	Isaac → Yitshak	49
 NAME	Zebulun → Zevulun	49
 NAME	Abijah → Aviyah	48
 NAME	Bethel → Beyt-El	48
-NAME	Luke → Lukas	48
 NAME	Persia → Paras	48
 NAME	Maacah → Ma’akah	47
 NAME	Sodom → Sedom	47
@@ -88,6 +87,7 @@ NAME	Zedekiah → Tsidkiyah	43
 NAME	Baal → Ba’al	42
 NAME	Ephesus → Efesos	42
 NAME	Esau → Esav	42
+NAME	Luke → Lukas	42
 NAME	Macedonia → Makedonia	42
 NAME	Greece → Yavan	41
 NAME	Shallum → Shalum	41
@@ -2287,7 +2287,6 @@ NAME	Cushites → Kushim	1
 NAME	Dedanites → Dedanim	1
 NAME	Emmer → Imer	1
 NAME	Epiphanes → Epifanes	1
-NAME	Esdras → Ezra	1
 NAME	Gerson → Gereshom	1
 NAME	Girgashites → Girgashim	1
 NAME	Hahiroth → Hahirot	1

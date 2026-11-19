@@ -10,7 +10,7 @@ The image collections are not included (they're unchanged, so download them from
 
 ## Changes made
 
-These changes were made automatically by `adaptUBSResources.py` (version 0.11)
+These changes were made automatically by `adaptUBSResources.py` (version 0.12)
 to match the [Open English Translation](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET) Readers’ Version (OET-RV):
 
 - Traditional forms of names were changed to the OET-RV forms from `OET-RV_names_table.tsv`
