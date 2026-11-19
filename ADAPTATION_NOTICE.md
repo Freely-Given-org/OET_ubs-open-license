@@ -10,11 +10,11 @@ The image collections are not included (they're unchanged, so download them from
 
 ## Changes made
 
-These changes were made automatically by `adaptUBSResources.py` (version 0.10)
+These changes were made automatically by `adaptUBSResources.py` (version 0.11)
 to match the [Open English Translation](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET) Readers’ Version (OET-RV):
 
 - Traditional forms of names were changed to the OET-RV forms from `OET-RV_names_table.tsv`
-  in glosses, definitions, comments, domain descriptions, the flora/fauna/realia handbooks, and the HOTTP English remarks and literal translations.
+  in glosses, definitions, comments, domain descriptions, the flora/fauna/realia handbooks, and the HOTTP English remarks, suggestions, and literal translations.
   The traditional form is given in parentheses in glosses, and at the first use in each entry or article
   (and again after about 10 text fields), imitating the OET-RV,
   e.g., ‘Yeshua (Jesus; Grk. Yesus)’ then just ‘Yeshua’.

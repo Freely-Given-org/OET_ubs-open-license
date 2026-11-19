@@ -37,6 +37,7 @@ Steps:
 
 CHANGELOG:
     2026-11-19 First version
+    2026-11-19 Also adapt the HOTTP English suggestions
 """
 from collections import Counter
 import importlib.util
@@ -49,7 +50,7 @@ import sys
 
 LAST_MODIFIED_DATE = '2026-11-19' # by RJH
 PROGRAM_NAME = "Adapt UBS open-licensed resources for OET-RV"
-PROGRAM_VERSION = '0.10'
+PROGRAM_VERSION = '0.11'
 
 THIS_FOLDER = Path(__file__).resolve().parent
 UBS_FOLDER = THIS_FOLDER.parent # The original UBS repo
@@ -84,7 +85,7 @@ XML_TEXT_ELEMENTS = {
     'Gloss', 'DefinitionShort', 'DefinitionLong', 'Comments', # Dictionary senses
     'Description', 'Comment', # Semantic domains
     'Title', 'Heading', 'SubHeading', 'Paragraph', 'Caption', # Flora, fauna, realia
-    'Remark', 'Literal', # HOTTP (but not Remark-FR or LiteralFR)
+    'Remark', 'Suggestion', 'Literal', # HOTTP (but not Remark-FR, SuggestionFR, LiteralFR, or quoted Versions)
     }
 XML_SKIP_ELEMENTS = {'s', 'l', 'Reference', 'Lemma', 'Transliteration', 'FileName', 'Copyright', 'Label', 'LanguageCode'}
 XML_ITEM_ELEMENTS = {'Lexicon_Entry', 'SemanticDomain', 'ThemLex_Entry', 'HOTTP_Entry'} # Explanations restart in each of these
@@ -279,7 +280,7 @@ These changes were made automatically by `adaptUBSResources.py` (version {PROGRA
 to match the [Open English Translation](https://github.com/Freely-Given-org/OpenEnglishTranslation--OET) Readers’ Version (OET-RV):
 
 - Traditional forms of names were changed to the OET-RV forms from `OET-RV_names_table.tsv`
-  in glosses, definitions, comments, domain descriptions, the flora/fauna/realia handbooks, and the HOTTP English remarks and literal translations.
+  in glosses, definitions, comments, domain descriptions, the flora/fauna/realia handbooks, and the HOTTP English remarks, suggestions, and literal translations.
   The traditional form is given in parentheses in glosses, and at the first use in each entry or article
   (and again after about {EXPLAIN_WINDOW_FIELDS} text fields), imitating the OET-RV,
   e.g., ‘Yeshua (Jesus; Grk. Yesus)’ then just ‘Yeshua’.
